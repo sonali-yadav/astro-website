@@ -1,0 +1,24 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% block content %}
+<div class="charts_div">
+    <div class="table_div">
+        <table class="table">
+            <tr>
+                <thead>
+                    <td>Graha(Planet)</td>
+                    <td>Small Mantra Cost</td>
+                    <td>Vedic Mantra Cost</td>
+                </thead>
+            </tr>
+            {% for mantra in mantras %}
+            <tr>
+                <td>{{ mantra.title }}</td>
+                <td><a href="#">{{ mantra.small_don }}</a></td>
+                <td><a href="#">{{ mantra.vedic_don }}</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+{% endblock %}

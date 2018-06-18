@@ -1,0 +1,14 @@
+.yajna_headings {
+    text-align: center;
+    font: 6vw 'Lobster';
+    padding: 20px 0 10px 0;
+    /*background-color: rgba(10,17,27,1.0);*/
+    background-color: rgba(255,205,46,1);
+}
+.yajna_div {
+
+}
+.card_img_2 {
+ 	width: 18rem;
+ 	height: 200px;
+}

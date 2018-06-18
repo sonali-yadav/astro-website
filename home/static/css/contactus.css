@@ -1,0 +1,41 @@
+.contact_div {
+    background: rgba(243,234,219,0.8) url('../images/abstract.jpg') fixed no-repeat;
+	background-size: cover;
+	padding-top: 40px;
+}
+.flex_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: center;
+	width: 90%;
+	margin: 20px auto 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+.image-card-div {
+	padding-top: 20px;
+ 	width: 18rem;
+ 	max-height: 200px;
+ 	margin: 0 auto;
+ 	text-align: center;
+}
+.card_img {
+    max-height: 150px;
+    width: 150px;
+}
+.card_div {
+    width:18rem;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+	margin: 20px;
+	text-align: center;
+	transition: transform .5s;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+.card_div:hover {
+	transform: scale(1.1);
+}
+.card_body_div {
+    background-color: rgba(243,234,219,0.5);
+    font-weight: bold;
+}
