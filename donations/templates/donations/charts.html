@@ -1,21 +1,21 @@
 {% extends 'home/base.html' %}
 {% load static %}
 {% block content %}
-<div class="charts_div">
+<div class="contact_div" style="padding-bottom: 20px;">
     <div class="table_div">
-        <table class="table">
+        <table class="table table-bordered table-hover" style="background-color:#fff;margin-bottom:0;">
             <tr>
-                <thead>
-                    <td>Graha(Planet)</td>
-                    <td>Small Mantra Cost</td>
-                    <td>Vedic Mantra Cost</td>
+                <thead class="thead-light">
+                    <th>Graha(Planet)</th>
+                    <th>Small Mantra Cost</th>
+                    <th>Vedic Mantra Cost</th>
                 </thead>
             </tr>
             {% for mantra in mantras %}
             <tr>
                 <td>{{ mantra.title }}</td>
-                <td><a href="#">{{ mantra.small_don }}</a></td>
-                <td><a href="#">{{ mantra.vedic_don }}</a></td>
+                <td><a href="#">${{ mantra.small_don }}</a></td>
+                <td><a href="#">${{ mantra.vedic_don }}</a></td>
             </tr>
             {% endfor %}
         </table>
