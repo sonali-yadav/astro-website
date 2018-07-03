@@ -1,0 +1,13 @@
+.cowcover_div {
+    background: rgba(55,55,55,0.9) url('../images/cow.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+}
+.cowcover_text_div {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-weight: 100;
+    font-family: 25px 'Pacifico';
+}
