@@ -1,4 +1,10 @@
 .table_div {
-    width: 80%;
+    width: 100%;
     margin: 20px auto 0 auto;
+}
+.charts_div {
+    padding:0 0 20px 0;
+}
+.cover {
+    height: 450px !important;
 }
