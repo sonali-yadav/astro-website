@@ -2,24 +2,6 @@
     width: 100%;
     margin: 20px auto 0 auto;
 }
-.charts_div {
-    margin: 2.5% 0;
-}
 .cover {
-    height: 400px;
-}
-.carousel_box {
-    width: 100%;
-}
-.inner_charts_div1 {
-    width: 67.5%;
-    float: left;
-    margin-left: 2.5%;
-}
-.inner_charts_div2 {
-    width: 25%;
-    height: 500px;
-    background-color: #525252;
-    float: right;
-    margin: 0 2.5%;
+    height: 250px;
 }
