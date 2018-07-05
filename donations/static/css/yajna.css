@@ -17,6 +17,7 @@
 .card_body_div2 {
      font-weight: normal;
      background-color: #FFF;
+     text-align: justify;
 }
 .card_text {
     height: 220px;

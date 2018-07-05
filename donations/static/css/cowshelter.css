@@ -36,6 +36,6 @@
 .donate_button:hover {
     color: rgba(40,167,69,1.0);
     border: 3px solid rgba(40,167,69,1.0);
-    background-color: #fff;
+    background-color: transparent;
     text-decoration: none;
 }
