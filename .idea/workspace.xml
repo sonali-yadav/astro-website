@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a484fe2-e30a-4a2e-a329-64e20046801c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/donations/static/images/c3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/donations/static/images/c4.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/donations/templates/donations/yajna.html" afterPath="$PROJECT_DIR$/donations/templates/donations/yajna.html" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/index.html" afterPath="$PROJECT_DIR$/home/templates/home/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,14 +19,24 @@
       <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/static/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="341">
               <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/templates/home/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/donations/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -89,7 +101,6 @@
         <option value="$PROJECT_DIR$/home/static/css/index.css" />
         <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/home/templates/home/faq.html" />
-        <option value="$PROJECT_DIR$/home/templates/home/index.html" />
         <option value="$PROJECT_DIR$/donations/templates/donations/casino.html" />
         <option value="$PROJECT_DIR$/donations/templates/donations/donate.html" />
         <option value="$PROJECT_DIR$/astro_site/settings.py" />
@@ -111,6 +122,7 @@
         <option value="$PROJECT_DIR$/home/static/css/aboutus.css" />
         <option value="$PROJECT_DIR$/home/static/css/faq.css" />
         <option value="$PROJECT_DIR$/donations/templates/donations/yajna.html" />
+        <option value="$PROJECT_DIR$/home/templates/home/index.html" />
       </list>
     </option>
   </component>
@@ -150,19 +162,6 @@
             <path>
               <item name="astro_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="astro_site" type="462c0819:PsiDirectoryNode" />
-              <item name="donations" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="astro_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="astro_site" type="462c0819:PsiDirectoryNode" />
-              <item name="donations" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="astro_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="astro_site" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,13 +196,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\astrology\astro_site\media" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\f_drive_data\astrology\astro_site\donations\static\images" />
       <recent name="F:\astrology\astro_site\donations\static\images" />
       <recent name="F:\astrology\astro_site\home\static\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\astrology\astro_site\media" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -495,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/home/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="89" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/donations/static/images/cow01.jpg" />
     <entry file="file://$PROJECT_DIR$/donations/static/images/cow02.jpg">
       <provider selected="true" editor-type-id="images">
@@ -521,20 +506,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/donations/templates/donations/cowshelter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="42" column="14" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="42" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -591,14 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/donations/static/css/charts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/donations/templates/donations/charts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -614,6 +583,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/donations/static/css/charts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/home/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="89" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>
