@@ -15,6 +15,9 @@ class Mantras(models.Model):
     title = models.CharField(max_length=100)
     small_don = models.IntegerField()
     vedic_don = models.IntegerField()
+    basic = models.CharField(max_length=50, default="")
+    note = models.CharField(max_length=150, default="")
+    qualities = models.CharField(max_length=250, default="")
 
     def __str__(self):
         return self.title
