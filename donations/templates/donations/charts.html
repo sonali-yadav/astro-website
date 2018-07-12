@@ -39,25 +39,24 @@
         <div class="accordion" id="accordionExample">
             {% for mantra in mantras %}
             <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link table_head" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div class="card-header table_head" id="headingOne">
+                    <h3 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         {{ mantra.title }}
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
                         <div>
-                            <div>Graha(Planet)</div>
-                            <div>Basic</div>
-                            <div>{{ mantra.basic }}</div>
-                            <div>Behavior</div>
-                            <div>{{ mantra.note }}</div>
-                            <div>Qualities</div>
-                            <div>{{ mantra.qualities }}</div>
-                            <div>Small Mantra Cost <a href="#" class="btn btn-success">${{ mantra.small_don }}</a></div>
-                            <div>Vedic Mantra Cost <a href="#" class="btn btn-success">${{ mantra.vedic_don }}</a></div>
+                            <h4>Basic</h4>
+                            <span>{{ mantra.basic }}</span>
+                            <h4>Behavior</h4>
+                            <span>{{ mantra.note }}</span>
+                            <h4>Qualities</h4>
+                            <span>{{ mantra.qualities }}</span>
+                            <h4>Small Mantra Cost <a href="#" class="btn btn-success">${{ mantra.small_don }}</a></h4>
+                            <h4>Vedic Mantra Cost <a href="#" class="btn btn-success">${{ mantra.vedic_don }}</a></h4>
                         </div>
                     </div>
                 </div>
