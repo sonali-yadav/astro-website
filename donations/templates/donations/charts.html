@@ -2,7 +2,7 @@
 {% load static %}
 {% block content %}
 <div class="about_div">
-    <div class="inner_about_div">
+    <div class="inner_about_div inner_charts">
         <div>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -36,32 +36,30 @@
                 explanation.
             </p>
         </div>
-        <div class="accordion" id="accordionExample">
-            {% for mantra in mantras %}
-            <div class="card">
-                <div class="card-header table_head" id="headingOne">
-                    <h3 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        {{ mantra.title }}
-                        </button>
-                    </h3>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                        <div>
-                            <h4>Basic</h4>
-                            <span>{{ mantra.basic }}</span>
-                            <h4>Behavior</h4>
-                            <span>{{ mantra.note }}</span>
-                            <h4>Qualities</h4>
-                            <span>{{ mantra.qualities }}</span>
-                            <h4>Small Mantra Cost <a href="#" class="btn btn-success">${{ mantra.small_don }}</a></h4>
-                            <h4>Vedic Mantra Cost <a href="#" class="btn btn-success">${{ mantra.vedic_don }}</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="yajna_headings yajna_small_headings">Planets & Associated Behavior</div>
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered table_div" align="center">
+                <thead class="table_head">
+                    <tr>
+                        <td>Mantra</td>
+                        <td>Small Mantra</td>
+                        <td>Full Vedic Mantra</td>
+                        <td>Behavior</td>
+                        <td>Nature</td>
+                        <td>Qualities</td>
+                    </tr>
+                </thead>
+                {% for mantra in mantras %}
+                <tr>
+                    <td>{{ mantra.title }}</td>
+                    <td><a href="#" class="btn btn-success">${{ mantra.small_don }}</a></td>
+                    <td><a href="#" class="btn btn-success">${{ mantra.vedic_don }}</a></td>
+                    <td>{{ mantra.basic }}</td>
+                    <td>{{ mantra.note }}</td>
+                    <td>{{ mantra.qualities }}</td>
+                </tr>
             {% endfor %}
+            </table>
         </div>
     </div>
 </div>

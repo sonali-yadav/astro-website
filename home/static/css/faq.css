@@ -11,10 +11,9 @@
     background-color: rgba(255,255,255,0.9);
 
 }
-div h3 {
+.faq_heading {
     padding: 10px 0 10px 10px;
-    background: rgba(249,165,30,1.0) url('../images/b4.jpg') fixed no-repeat;
-	background-size: cover;
+    background: linear-gradient(45deg, rgba(255,87,0,1), rgba(255,205,46,1), rgba(255,205,46,1));
 }
 div p {
     padding: 10px;
