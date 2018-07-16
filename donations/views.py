@@ -22,3 +22,11 @@ def cowshelter(request):
 
 def donate(request):
     return render(request, 'donations/donate.html')
+
+
+def gems(request):
+    return render(request, 'donations/gems.html')
+
+
+def marriage(request):
+    return render(request, 'donations/marriage.html')

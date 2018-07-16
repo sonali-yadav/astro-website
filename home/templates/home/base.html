@@ -75,14 +75,16 @@
             </div>
             <div class="footer_div">
                 <div style="text-align:center;padding:30px 0;">
-                    <a  class="btn btn-outline-light" href="{% url 'donate' %}">Home</a>
+                    <a  class="btn btn-outline-light" href="{% url 'index' %}">Home</a>
+                    <a  class="btn btn-outline-light" href="{% url 'donate' %}">Login | Sign Up</a>
                     <a  class="btn btn-outline-light" href="{% url 'donate' %}">Donate</a>
                 </div>
                 <div class="text-muted footer_text">
-                    <a href="#" class="btn btn-outline-info">Request Yajna/Puja</a>
-                    <a href="#" class="btn btn-outline-success">Gem Stone Consultation</a>
-                    <a href="#" class="btn btn-outline-warning">Marriages Consultation</a>
-                    <a href="#" class="btn btn-outline-danger">Other Consultation</a>
+                    <a href="{% url 'yajna' %}" class="btn btn-outline-info">Request Yajna/Puja</a>
+                    <a href="{% url 'gems' %}" class="btn btn-outline-success">Gem Stone Consultation</a>
+                    <a href="{% url 'marriage' %}" class="btn btn-outline-warning">Business Consultation</a>
+                    <a href="{% url 'marriage' %}" class="btn btn-outline-primary">Marriage Consultation</a>
+                    <a href="{% url 'contact' %}" class="btn btn-outline-danger">Other Consultation</a>
                 </div>
                 <div class="text-muted footer_text"><a href="mailto:info@indianvedicfoundation.com">info@indianvedicfoundation.com</a></div>
                 <div class="text-muted footer_text disclaimer">
