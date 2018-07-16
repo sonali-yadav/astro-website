@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a484fe2-e30a-4a2e-a329-64e20046801c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/donations/templates/donations/gems.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/donations/templates/donations/marriage.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/donations/templates/donations/rudraksh.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/donations/urls.py" afterPath="$PROJECT_DIR$/donations/urls.py" />
-      <change beforePath="$PROJECT_DIR$/donations/views.py" afterPath="$PROJECT_DIR$/donations/views.py" />
-      <change beforePath="$PROJECT_DIR$/home/templates/home/base.html" afterPath="$PROJECT_DIR$/home/templates/home/base.html" />
+      <change beforePath="$PROJECT_DIR$/donations/templates/donations/marriage.html" afterPath="$PROJECT_DIR$/donations/templates/donations/marriage.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,8 +71,8 @@
       <file leaf-file-name="gems.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/donations/templates/donations/gems.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="44">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -97,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/donations/templates/donations/marriage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -630,14 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/donations/templates/donations/gems.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/donations/templates/donations/rudraksh.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -646,10 +633,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/donations/templates/donations/gems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/donations/templates/donations/marriage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding />
         </state>
       </provider>
