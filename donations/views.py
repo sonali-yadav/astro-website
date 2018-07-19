@@ -30,3 +30,7 @@ def gems(request):
 
 def marriage(request):
     return render(request, 'donations/marriage.html')
+
+
+def rudraksh(request):
+    return render(request, 'donations/rudraksh.html')
