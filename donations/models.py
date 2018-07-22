@@ -21,3 +21,13 @@ class Mantras(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Rudraksh(models.Model):
+    title = models.CharField(max_length=50, default="")
+    price = models.IntegerField()
+    planet = models.CharField(max_length=10, default="")
+    desc = models.CharField(max_length=500, default="")
+
+    def __str__(self):
+        return self.title
