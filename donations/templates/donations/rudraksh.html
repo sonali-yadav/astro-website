@@ -3,14 +3,29 @@
 {% block content %}
 <div>
     <div class="yajna_headings">Rudraksh Beads</div>
-    <div class="inner_about_div">
+    <div class="container">
         <div class="rud_div rud_img"><img src="{% static 'images/rudraksh.jpg' %}" class="rud_img"></div>
-        <div style="font: 1.5vw 'Acme';">
+        <div style="font: 1.5vw 'Acme';" class="flex_div">
             The Rudraksha bead may have one or several faces and each one confers specific
             benefits. Ancient text reveals the beads of  Rudraksha have immense amazing powers.
             These beads are said to be a gift from the Almighty to his children.
         </div>
-
+        <div class="flex_div">
+        {% for rud in ruds %}
+            <div class="card card_div">
+                <div class="image-card-div" style="padding-top:0;">
+                    <h4 class="faq_heading" style="font-family: 'Acme';">{{ rud.title }}</h4>
+                </div>
+                <div class="card-body card_body_div card_body_div2">
+                    <div class="card-text">
+                        <h5 style="font-family: 'Acme';">Ruling Planet: {{ rud.planet }}</h5>
+                        <div>{{ rud.desc}}</div>
+                    </div>
+                </div>
+                <div class="button_div"><a href="#" class="btn btn-success">Buy for ${{ rud.price }}</a></div>
+            </div>
+        {% endfor %}
+        </div>
     </div>
 </div>
 {% endblock %}

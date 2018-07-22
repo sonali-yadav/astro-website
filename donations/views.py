@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Yajnas, Mantras
+from .models import Yajnas, Mantras, Rudraksh
 
 
 def yajna(request):
@@ -10,10 +10,6 @@ def yajna(request):
 def charts(request):
     mantras = Mantras.objects.all()
     return render(request, 'donations/charts.html', {'mantras': mantras})
-
-
-def casino(request):
-    return render(request, 'donations/casino.html')
 
 
 def cowshelter(request):
@@ -33,4 +29,5 @@ def marriage(request):
 
 
 def rudraksh(request):
-    return render(request, 'donations/rudraksh.html')
+    ruds = Rudraksh.objects.all()
+    return render(request, 'donations/rudraksh.html', {'ruds': ruds})
