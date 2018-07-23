@@ -10,6 +10,29 @@
             benefits. Ancient text reveals the beads of  Rudraksha have immense amazing powers.
             These beads are said to be a gift from the Almighty to his children.
         </div>
+        <div class="yajna_headings yajna_small_headings">Which Rudraksh Should You Wear?</div>
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered table_div" align="center">
+                <thead class="table_head">
+                    <tr>
+                        <td>Birth Rashi (Moon Sign)</td>
+                        <td>Prescribed Rudraksh</td>
+                        <td>Prohibited Rudraksh</td>
+                        <td>Auspicious Planet</td>
+                    </tr>
+                </thead>
+                {% for mantra in mantras %}
+                <tr>
+                    <td>{{ mantra.title }}</td>
+                    <td><a href="#" class="btn btn-success">${{ mantra.small_don }}</a></td>
+                    <td><a href="#" class="btn btn-success">${{ mantra.vedic_don }}</a></td>
+                    <td>{{ mantra.basic }}</td>
+                    <td>{{ mantra.note }}</td>
+                    <td>{{ mantra.qualities }}</td>
+                </tr>
+            {% endfor %}
+            </table>
+        </div>
         <div class="flex_div">
         {% for rud in ruds %}
             <div class="card card_div">
