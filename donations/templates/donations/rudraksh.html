@@ -12,7 +12,7 @@
         </div>
         <div class="yajna_headings yajna_small_headings">Which Rudraksh Should You Wear?</div>
         <div class="table-responsive">
-            <table class="table table-hover table-bordered table_div" align="center">
+            <table class="table table-hover table-bordered table_div table-striped" align="center">
                 <thead class="table_head">
                     <tr>
                         <td>Birth Rashi (Moon Sign)</td>
@@ -21,14 +21,16 @@
                         <td>Auspicious Planet</td>
                     </tr>
                 </thead>
+                <tbody>
                 {% for tab in table %}
-                <tr>
-                    <td>{{ tab.moon_sign }}</td>
-                    <td>{{ tab.prescribed }}</td>
-                    <td>{{ tab.prohibited }}</td>
-                    <td>{{ tab.planet }}</td>
-                </tr>
-            {% endfor %}
+                    <tr>
+                        <td>{{ tab.moon_sign }}</td>
+                        <td>{{ tab.prescribed }}</td>
+                        <td>{{ tab.prohibited }}</td>
+                        <td>{{ tab.planets }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
             </table>
         </div>
         <div class="flex_div">

@@ -38,3 +38,6 @@ class RudTable(models.Model):
     prescribed = models.CharField(max_length=50, default="")
     prohibited = models.CharField(max_length=25, default="")
     planets = models.CharField(max_length=30, default="")
+
+    def __str__(self):
+        return self.moon_sign

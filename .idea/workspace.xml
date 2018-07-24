@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2a484fe2-e30a-4a2e-a329-64e20046801c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/donations/admin.py" afterPath="$PROJECT_DIR$/donations/admin.py" />
       <change beforePath="$PROJECT_DIR$/donations/models.py" afterPath="$PROJECT_DIR$/donations/models.py" />
       <change beforePath="$PROJECT_DIR$/donations/templates/donations/rudraksh.html" afterPath="$PROJECT_DIR$/donations/templates/donations/rudraksh.html" />
-      <change beforePath="$PROJECT_DIR$/donations/views.py" afterPath="$PROJECT_DIR$/donations/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,8 +70,8 @@
       <file leaf-file-name="rudraksh.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/donations/templates/donations/rudraksh.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="204">
+              <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
@@ -82,6 +80,16 @@
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/donations/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,9 +170,9 @@
         <option value="$PROJECT_DIR$/donations/static/css/yajna.css" />
         <option value="$PROJECT_DIR$/home/static/css/base.css" />
         <option value="$PROJECT_DIR$/home/templates/home/base.html" />
-        <option value="$PROJECT_DIR$/donations/models.py" />
         <option value="$PROJECT_DIR$/donations/admin.py" />
         <option value="$PROJECT_DIR$/donations/views.py" />
+        <option value="$PROJECT_DIR$/donations/models.py" />
         <option value="$PROJECT_DIR$/donations/templates/donations/rudraksh.html" />
       </list>
     </option>
@@ -630,14 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/donations/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/donations/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -648,10 +648,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/donations/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/donations/templates/donations/rudraksh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="204">
+          <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
