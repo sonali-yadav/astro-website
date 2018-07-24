@@ -21,14 +21,12 @@
                         <td>Auspicious Planet</td>
                     </tr>
                 </thead>
-                {% for mantra in mantras %}
+                {% for tab in table %}
                 <tr>
-                    <td>{{ mantra.title }}</td>
-                    <td><a href="#" class="btn btn-success">${{ mantra.small_don }}</a></td>
-                    <td><a href="#" class="btn btn-success">${{ mantra.vedic_don }}</a></td>
-                    <td>{{ mantra.basic }}</td>
-                    <td>{{ mantra.note }}</td>
-                    <td>{{ mantra.qualities }}</td>
+                    <td>{{ tab.moon_sign }}</td>
+                    <td>{{ tab.prescribed }}</td>
+                    <td>{{ tab.prohibited }}</td>
+                    <td>{{ tab.planet }}</td>
                 </tr>
             {% endfor %}
             </table>

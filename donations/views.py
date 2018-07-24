@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Yajnas, Mantras, Rudraksh
+from .models import Yajnas, Mantras, Rudraksh, RudTable
 
 
 def yajna(request):
@@ -30,4 +30,5 @@ def marriage(request):
 
 def rudraksh(request):
     ruds = Rudraksh.objects.all()
-    return render(request, 'donations/rudraksh.html', {'ruds': ruds})
+    table = RudTable.objects.all()
+    return render(request, 'donations/rudraksh.html', {'ruds': ruds, 'table': table})

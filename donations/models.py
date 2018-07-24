@@ -31,3 +31,10 @@ class Rudraksh(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class RudTable(models.Model):
+    moon_sign = models.CharField(max_length=25, default="")
+    prescribed = models.CharField(max_length=50, default="")
+    prohibited = models.CharField(max_length=25, default="")
+    planets = models.CharField(max_length=30, default="")
