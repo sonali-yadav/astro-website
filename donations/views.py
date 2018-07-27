@@ -24,8 +24,8 @@ def gems(request):
     return render(request, 'donations/gems.html')
 
 
-def marriage(request):
-    return render(request, 'donations/marriage.html')
+def services(request):
+    return render(request, 'donations/services.html')
 
 
 def rudraksh(request):

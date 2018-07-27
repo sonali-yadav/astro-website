@@ -8,6 +8,6 @@ urlpatterns = [
     url(r'^cowshelter/$', views.cowshelter, name='cowshelter'),
     url(r'^donate/$', views.donate, name='donate'),
     url(r'^gems/$', views.gems, name='gems'),
-    url(r'^marriage/$', views.marriage, name='marriage'),
+    url(r'^services/$', views.services, name='services'),
     url(r'^rudraksh/$', views.rudraksh, name='rudraksh')
 ]
