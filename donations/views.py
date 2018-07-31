@@ -20,10 +20,6 @@ def donate(request):
     return render(request, 'donations/donate.html')
 
 
-def gems(request):
-    return render(request, 'donations/gems.html')
-
-
 def services(request):
     return render(request, 'donations/services.html')
 
