@@ -2,6 +2,8 @@
     --footer-bg-color: rgba(10,17,27,1.0);
     --main-color: rgba(242,85,0,1.0);
     --sec-main-color: rgba(255,129,0,1.0);
+    --heading-yellow: rgba(255,205,46,1);
+    --background-light: rgba(255,129,0,0.8);
 }
 * {
 	margin: 0;

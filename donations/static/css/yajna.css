@@ -2,7 +2,7 @@
     text-align: center;
     font: 4vw 'Acme';
     padding: 20px 0 10px 0;
-    background-color: rgba(255,205,46,1);
+    background-color: var(--heading-yellow);
 }
 .card_img_2 {
  	width: 17.8rem;
