@@ -1,5 +1,7 @@
 :root {
     --footer-bg-color: rgba(10,17,27,1.0);
+    --main-color: rgba(242,85,0,1.0);
+    --sec-main-color: rgba(255,129,0,1.0);
 }
 * {
 	margin: 0;
@@ -10,7 +12,7 @@
     margin: auto;
 }
 .navigation-nav {
-    background-color: rgba(242,85,0,1.0);
+    background-color: var(--main-color);
     padding: 3px 0;
 }
 .heading_div {
@@ -18,7 +20,7 @@
 }
 .subheading_div {
     padding: 3px 0;
-    background-color: rgba(255,129,0,1.0);
+    background-color: var(--sec-main-color);
     font: bold 1.5vw 'Acme';
 }
 .footer_div {
