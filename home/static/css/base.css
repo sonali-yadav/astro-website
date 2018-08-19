@@ -13,16 +13,13 @@
     background-color: rgba(242,85,0,1.0);
     padding: 3px 0;
 }
-.nav-list-item {
-    color: rgba(255,255,255,1.0);
-}
-.heading-div {
+.heading_div {
     font: 5vw 'Pacifico';
 }
-.subheading-div {
+.subheading_div {
     padding: 3px 0;
     background-color: rgba(255,129,0,1.0);
-    font: bold 19px 'Acme';
+    font: bold 1.5vw 'Acme';
 }
 .footer_div {
     padding-bottom: 20px;
