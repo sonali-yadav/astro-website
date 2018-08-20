@@ -10,7 +10,28 @@
     text-align: justify;
 }
 .index_about{
-    background-color: var(--heading-yellow);
+    background-color: rgba(255,129,0,0.8);
     color: #000;
     font-family: 'Acme';
+}
+.index_container {
+    background-color: var(--white-back);
+}
+.grid_item {
+    border: 4px solid var(--heading-yellow) !important;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+.grid_header {
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+.astro_list {
+    list-style-type: none;
+    padding: 10px;
+}
+.kundali_img {
+    height: 10vw;
+    width: 10vw;
 }

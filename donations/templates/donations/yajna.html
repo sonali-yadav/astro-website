@@ -4,7 +4,7 @@
 <div>
     <div class="yajna_headings">Basic Yajnas</div>
     <div class="flex_div">
-        <div class="card card_div">
+        <div class="card card_div shadow">
             <div class="image-card-div" style="padding-top:0;">
                 <img src="{% static 'images/yajna1.jpg' %}" alt="yajna1.jpg" class="card-img-top card_img_2">
             </div>
@@ -16,7 +16,7 @@
                 <div class="button_div"><a href="#" class="btn btn-success">Donate $501</a></div>
             </div>
         </div>
-        <div class="card card_div">
+        <div class="card card_div shadow">
             <div class="image-card-div" style="padding-top:0;">
                 <img src="{% static 'images/yajna2.jpg' %}" alt="yajna2.jpg" class="card-img-top card_img_2">
             </div>
@@ -29,7 +29,7 @@
                 <div class="button_div"><a href="#" class="btn btn-success">Donate $151</a></div>
             </div>
         </div>
-        <div class="card card_div">
+        <div class="card card_div shadow">
             <div class="image-card-div" style="padding-top:0;">
                 <img src="{% static 'images/yajna3.jpg' %}" alt="yajna3.jpg" class="card-img-top card_img_2">
             </div>
@@ -45,7 +45,7 @@
     <div class="yajna_headings">Special Yajnas</div>
     <div class="flex_div">
         {% for yajna in yajnas %}
-        <div class="card card_div">
+        <div class="card card_div shadow">
             <div class="image-card-div" style="padding-top:0;">
                 <img src="{{ yajna.thumbnail.url }}" alt="yajna_thumbnail" class="card-img-top card_img_2">
             </div>
