@@ -9,9 +9,11 @@
 	margin: 0;
 	padding: 0;
 }
+.mg_auto {
+    margin: auto;
+}
 .container-div {
     background: #fff;
-    margin: auto;
 }
 .navigation-nav {
     background-color: var(--main-color);
