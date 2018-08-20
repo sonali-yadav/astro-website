@@ -9,11 +9,6 @@
 .justified {
     text-align: justify;
 }
-.index_about{
-    background-color: rgba(255,129,0,0.8);
-    color: #000;
-    font-family: 'Acme';
-}
 .index_container {
     background-color: var(--white-back);
 }
@@ -37,4 +32,16 @@
 }
 .card_content {
     height: calc(100% - 100px);
+}
+.in_block {
+    display: inline-block;
+}
+.about_index {
+    background-color: rgba(249,165,30,0.8);
+}
+.about_index2 {
+    background: rgba(249,165,30,1.0) url('../images/b3.jpg') fixed no-repeat;
+    background-size: cover;
+}
+.grid_div {
 }

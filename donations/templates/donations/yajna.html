@@ -5,53 +5,61 @@
     <div class="yajna_headings">Basic Yajnas</div>
     <div class="flex_div">
         <div class="card card_div shadow">
-            <div class="image-card-div" style="padding-top:0;">
-                <img src="{% static 'images/yajna1.jpg' %}" alt="yajna1.jpg" class="card-img-top card_img_2">
+            <div class="card_content">
+                <div class="image-card-div" style="padding-top:0;">
+                    <img src="{% static 'images/yajna1.jpg' %}" alt="yajna1.jpg" class="card-img-top card_img_2">
+                </div>
+                <div class="card-body card_body_div card_body_div2">
+                    <h2>Birthday Yajna</h2>
+                    <div class="card_text">This Yajna is traditionally meant to bring general progress, success, victory
+                    and happiness in the upcoming year. As the name indicates, it is performed on and around
+                        your birthday.</div>
+                </div>
             </div>
-            <div class="card-body card_body_div card_body_div2">
-                <h2>Birthday Yajna</h2>
-                <div class="card_text">This Yajna is traditionally meant to bring general progress, success, victory
-                and happiness in the upcoming year. As the name indicates, it is performed on and around
-                    your birthday.</div>
-                <div class="button_div"><a href="#" class="btn btn-success">Donate $501</a></div>
-            </div>
+            <div class="button_div"><a href="#" class="btn btn-success">Donate $501</a></div>
         </div>
         <div class="card card_div shadow">
-            <div class="image-card-div" style="padding-top:0;">
-                <img src="{% static 'images/yajna2.jpg' %}" alt="yajna2.jpg" class="card-img-top card_img_2">
+            <div class="card_content">
+                <div class="image-card-div" style="padding-top:0;">
+                    <img src="{% static 'images/yajna2.jpg' %}" alt="yajna2.jpg" class="card-img-top card_img_2">
+                </div>
+                <div class="card-body card_body_div card_body_div2">
+                    <h2>Monthly Yajna</h2>
+                    <div class="card_text">This Yajna is for the general happiness of oneself and immediate family.
+                        Its aim is to protect you from negative influences that will be affecting you on
+                        that day. It is like cleaning one's home every day to prevent the "dust" of karma
+                        from piling up.</div>
+                </div>
             </div>
-            <div class="card-body card_body_div card_body_div2">
-                <h2>Monthly Yajna</h2>
-                <div class="card_text">This Yajna is for the general happiness of oneself and immediate family.
-                    Its aim is to protect you from negative influences that will be affecting you on
-                    that day. It is like cleaning one's home every day to prevent the "dust" of karma
-                    from piling up.</div>
-                <div class="button_div"><a href="#" class="btn btn-success">Donate $151</a></div>
-            </div>
+            <div class="button_div"><a href="#" class="btn btn-success">Donate $151</a></div>
         </div>
         <div class="card card_div shadow">
-            <div class="image-card-div" style="padding-top:0;">
-                <img src="{% static 'images/yajna3.jpg' %}" alt="yajna3.jpg" class="card-img-top card_img_2">
+            <div class="card_content">
+                <div class="image-card-div" style="padding-top:0;">
+                    <img src="{% static 'images/yajna3.jpg' %}" alt="yajna3.jpg" class="card-img-top card_img_2">
+                </div>
+                <div class="card-body card_body_div card_body_div2">
+                    <h2>Christmas Yajna</h2>
+                    <div class="card_text">This yajna is done on Christmas Eve for the betterment of your life and
+                        improvement of financial status. It is done to help you get Jesus' blessings.
+                        May the Blessings of Christmas with you today and always.</div>
+                </div>
             </div>
-            <div class="card-body card_body_div card_body_div2">
-                <h2>Christmas Yajna</h2>
-                <div class="card_text">This yajna is done on Christmas Eve for the betterment of your life and
-                    improvement of financial status. It is done to help you get Jesus' blessings.
-                    May the Blessings of Christmas with you today and always.</div>
-                <div class="button_div"><a href="#" class="btn btn-success">Donate</a></div>
-            </div>
+            <div class="button_div"><a href="#" class="btn btn-success">Donate</a></div>
         </div>
     </div>
     <div class="yajna_headings">Special Yajnas</div>
     <div class="flex_div">
         {% for yajna in yajnas %}
         <div class="card card_div shadow">
-            <div class="image-card-div" style="padding-top:0;">
-                <img src="{{ yajna.thumbnail.url }}" alt="yajna_thumbnail" class="card-img-top card_img_2">
-            </div>
-            <div class="card-body card_body_div card_body_div2" style="height: 170px;">
-                <h4>{{ yajna.title }}</h4>
-                <div class="card-text">{{ yajna.description | truncatechars:100 }}</div>
+            <div class="card_content">
+                <div class="image-card-div" style="padding-top:0;">
+                    <img src="{{ yajna.thumbnail.url }}" alt="yajna_thumbnail" class="card-img-top card_img_2">
+                </div>
+                <div class="card-body card_body_div card_body_div2" style="height: 170px;">
+                    <h4>{{ yajna.title }}</h4>
+                    <div class="card-text">{{ yajna.description | truncatechars:100 }}</div>
+                </div>
             </div>
             <div class="button_div"><a href="#" class="btn btn-success">Donate ${{ yajna.amount }}</a></div>
         </div>
