@@ -23,16 +23,6 @@ class Mantras(models.Model):
         return self.title
 
 
-class Rudraksh(models.Model):
-    title = models.CharField(max_length=50, default="")
-    price = models.IntegerField()
-    planet = models.CharField(max_length=10, default="")
-    desc = models.CharField(max_length=500, default="")
-
-    def __str__(self):
-        return self.title
-
-
 class RudTable(models.Model):
     moon_sign = models.CharField(max_length=25, default="")
     prescribed = models.CharField(max_length=50, default="")

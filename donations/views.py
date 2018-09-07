@@ -1,5 +1,6 @@
+from django.core.urlresolvers import reverse
 from django.shortcuts import render
-from .models import Yajnas, Mantras, Rudraksh, RudTable
+from .models import Yajnas, Mantras, RudTable
 
 
 def yajna(request):
@@ -16,15 +17,14 @@ def cowshelter(request):
     return render(request, 'donations/cowshelter.html')
 
 
-def donate(request):
-    return render(request, 'donations/donate.html')
-
-
 def services(request):
     return render(request, 'donations/services.html')
 
 
 def rudraksh(request):
-    ruds = Rudraksh.objects.all()
     table = RudTable.objects.all()
-    return render(request, 'donations/rudraksh.html', {'ruds': ruds, 'table': table})
+    return render(request, 'donations/rudraksh.html', {'table': table})
+
+
+def cart(request):
+    return render(request, 'donations/cart.html')

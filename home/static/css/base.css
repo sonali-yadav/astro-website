@@ -17,6 +17,7 @@
 }
 .navigation-nav {
     background-color: var(--main-color);
+    border-bottom: 3px solid var(--heading-yellow);
     padding: 3px 0;
 }
 .heading_div {
@@ -63,4 +64,8 @@
 }
 .capitals {
     text-transform: uppercase;
+}
+.cart_img {
+    height: 40px;
+    width: 40px;
 }

@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="{% static 'css/charts.css' %}" type="text/css">
 		<link rel="stylesheet" href="{% static 'css/cowshelter.css' %}" type="text/css">
 		<link rel="stylesheet" href="{% static 'css/casino.css' %}" type="text/css">
-		<link rel="stylesheet" href="{% static 'css/donate.css' %}" type="text/css">
+		<link rel="stylesheet" href="{% static 'css/cart.css' %}" type="text/css">
 		<link rel="stylesheet" href="{% static 'css/rudraksh.css' %}" type="text/css">
 		<link rel="stylesheet" href="{% static 'css/services.css' %}" type="text/css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -65,21 +65,25 @@
                                 <b><a class="nav-link" href="#">Live Yajnas</a></b>
                             </li>
                             <li class="nav-item">
-                                <b><a class="nav-link" href="{% url 'donate' %}">Donate</a></b>
+                                <b><a href="{% url 'cart' %}">
+                                    <img src="{% static 'images/cart1.png' %}" alt="cart" class="cart_img">
+                                </a></b>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
-            <div class="main_body_div">
+            <div class="main_bodsy_div">
                 {% block content %}
                 {% endblock %}
             </div>
             <div class="footer_div">
                 <div style="text-align:center;padding:30px 0;">
                     <a  class="btn btn-outline-light" href="{% url 'index' %}">Home</a>
-                    <a  class="btn btn-outline-light" href="{% url 'donate' %}">Donate</a>
-                    <a  class="btn btn-outline-light" href="{% url 'donate' %}">Login | Sign Up</a>
+                    <a  class="btn btn-outline-light" href="{% url 'cart' %}">Login | Sign Up</a>
+                    <a href="{% url 'cart' %}">
+                        <img src="{% static 'images/cart1.png' %}" alt="cart" class="cart_img">
+                    </a>
                     <a  class="btn btn-outline-light" href="{% url 'about' %}">About Us</a>
                     <a  class="btn btn-outline-light" href="{% url 'contact' %}">Contact Us</a>
                 </div>
