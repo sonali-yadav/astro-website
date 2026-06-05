@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+scratch.py
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Django
+*.log
+db.sqlite3
+media/
+static/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Package/build artifacts
+*.egg-info/
+build/
+dist/
