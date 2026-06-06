@@ -1,39 +1,39 @@
-# Python
+# ___________Python
 __pycache__/
 *.py[cod]
 *$py.class
 scratch.py
 
-# Virtual environments
+# ___________ Virtual environments
 .env
 .venv/
 env/
 venv/
 
-# Django
+# ___________Django
 *.log
 db.sqlite3
 media/
 static/
 
-# macOS
+# ___________macOS
 .DS_Store
 
-# IDEs
+# ___________IDEs
 .vscode/
 .idea/
 
-# Environment variables
+# ___________Environment variables
 .env
 .env.*
 !.env.example
 
-# Testing and coverage
+# ___________Testing and coverage
 .coverage
 htmlcov/
 .pytest_cache/
 
-# Package/build artifacts
+# ___________Package/build artifacts
 *.egg-info/
 build/
 dist/
